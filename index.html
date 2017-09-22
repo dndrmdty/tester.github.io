@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="tester.github.io/Sumber.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  </head>
 <body>
  <div class="topnav">Menu Bar</div>
@@ -33,5 +34,8 @@
  +details = https://api.github.com/repos/andhikamaheva/andhikamaheva.github.io
  
 <script>
+  $.get("demo_test.asp", function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+    });
  </script>
 </body>
