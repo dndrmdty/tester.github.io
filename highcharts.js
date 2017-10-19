@@ -1,4 +1,5 @@
- Highcharts.chart('container', {
+<script>
+Highcharts.chart('container', {
 
     title: {
         text: 'Solar Employment Growth by Sector, 2010-2016'
@@ -61,3 +62,4 @@
     }
 
 });
+</script>
